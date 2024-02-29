@@ -7,9 +7,7 @@ function calculate() {
     alert(a + b);
   } else if (a == b) {
     alert(a);
-  } else if (isNaN(a) || isNaN(b)) {
-    alert("Not a number");
-  }
+  } else alert("Not a number");
 }
 
 function switchCase() {
